@@ -15,6 +15,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  font-size: 1em;
+}
+
 .float_left {
   /* Flotar a la derecha */
   float: left;
@@ -114,6 +118,20 @@ body {
   margin: auto 10px;
   display: inline-block;
   position: relative;
+}
+
+.container h1 {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.container h2 {
+  font-size: 1.3em;
+  margin-top: 15px;
+  margin-bottom: 3px;
 }
 
 /* Extras */
