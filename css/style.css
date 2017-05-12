@@ -16,6 +16,7 @@ body {
 }
 
 .float_left {
+  /* Flotar a la derecha */
   float: left;
 }
 
@@ -31,22 +32,29 @@ body {
 }
 
 .submenu {
+  /* Elemento sub menu */
+  /* No ha de aparecer */
   display: none;
-  left: 0;
+  /* La posicion respecto al elemento anterior */
   position: absolute;
+  left: 0;
+  /* Espaciado de dentro  y formato */
   padding: 5px;
   background-color: white;
+  /* Sombra */
   box-shadow: 2px 2px 5px #333;
   z-index: 10;
 }
 
 .submenu ul, .submenu ul li {
+  /* Estilo de las listas... ninguno */
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .submenu ul li {
+  /* Estilo de cada elemento de la lista */
   font-size: 0.8em;
   border-bottom: 1px solid red;
 }
