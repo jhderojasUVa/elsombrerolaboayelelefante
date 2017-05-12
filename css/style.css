@@ -1,0 +1,104 @@
+/* Estilos extras */
+
+/* Colores y basicos */
+.fondo_degradado {
+  background: linear-gradient(180deg, white, #888888);
+  border-bottom: 5px solid #444444;
+}
+
+.fondo_gris {
+  background-color: #e6e6e6;
+}
+
+/* Elementos genericos */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.float_left {
+  float: left;
+}
+
+/* Menu superior elementos extras */
+.centrado_elementos {
+  position: relative;
+  text-align: center;
+}
+
+.centrado_elementos_elemento {
+  display: inline-block;
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  z-index: 10;
+}
+
+.submenu li ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Accion de poner el cursor encima */
+.centrado_elementos_elemento:hover .submenu {
+  display: block;
+}
+
+/* Especificaciones de elementos concretos */
+.card {
+  width: 210px;
+  height: 280px;
+  border: 1px solid #eee;
+  /*margin: 20px 0px;*/
+  margin: 20px auto;
+  box-shadow: 2px 2px 5px #333;
+  background-color: white;
+}
+
+/* Este element del menu esta incluido en .card y se usa para ahorrar codigo */
+.card_menu {
+  width: 90px;
+  /*float: left;*/
+  margin: 5px 10px;
+  background: white;
+  box-shadow: 2px 2px 5px #333;
+  text-align: left;
+}
+
+.card img.card-img-top, .card_menu img.card-img-top {
+  /* Por si acaso */
+}
+
+.card .card-block, .card_menu .card-block {
+  padding: 5px;
+}
+
+.card h4.card-title, .card_menu h4.card-title {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.card_menu h4.card-title {
+  font-size: 0.9em;
+}
+
+.grupo-inferior {
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+.grupo-inferior-elemento {
+  text-align: center;
+  background-color: white;
+  padding: 2px 5px;
+  margin: auto 10px;
+  display: inline-block;
+  position: relative;
+}
+
+/* Extras */
